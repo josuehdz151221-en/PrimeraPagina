@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/miEstilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--encabezado-->
+    <header>
+        <div id="logo">
+            <h1>TechAcademy</h1>
+        </div>
+        <nav class="navPrincipal">
+            <ul>
+                <li><a href="Index3.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="mentoria.html">Mentoria</a></li>
+                <li><a href="inscripcion.html" id="btn_destacado">Inscribirse</a></li>
+            </ul>
+
+        </nav>
+        
+    </header>
+        <h1>INSCRIBITE AHORA</h1>
+        <p>Completa tus datos para inscribirte a un curso y empezar a programar</p>
+
+        <!-- FORM -->
+         <form action="#" method=""> <!-- get post -->
+            <label for="nombre">Nombre del usuario: </label>
+            <input type="text" placeholder="Ingresa nombre" name="nombre">
+
+            <label for="correo">Correo de inicio de sesion: </label>
+            <input type="email" placeholder="Ingresa tu correo" name="correo">
+
+            <label for="contraseña">Contrasena de la cuenta: </label>
+            <input type="password" placeholder="Ingresa una contraseña" name="contrasena">
+
+
+            <label for="Cursos">cursos que ofrecemos: </label>
+            <select name="Cursos disponibles" id="curso-disponible">
+                <option value="Fundamnetos de ciberseguridad">Fundamentos de ciberseguridad</option>
+                <option value="Introduccion a la IA generativa">IA generativa</option>
+                <option value="Fundamnetos de soporte tecnico">Soporte tecnico</option>
+                <option value="Fundamentos datos en todas partes">datos en todas partes</option>
+            </select>
+
+            <label for="mensaje">Sugerencias: </label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+         </form>
+    </header>
+
+</body>
+</html>
